@@ -1,38 +1,25 @@
-
 <div class="cotainer">
 
-<div class="header">
-    <label for="lblhero">Digite o nome do Heroi</label>
-   <imput type="text" name="txhero" id="" />
-   <button>Add hero</button> 
+    <div class="header">
+        <label for="lblhero">Digite o nome do Heroi</label>
+        <input type="text" name="txhero" id="" />
+        <button>Add hero</button>
     </div>
 
     <ul>
 
-    <li *ngFor="let v of vetor"> {{ v }}</li>
-</ul>
-<div class="heroes">
-<ul>
-    <li *ngFor="hero of heroes">{{hero}}</li> 
-</ul>   
-</div>
-
-<div class="card-hero"></div>
-<div class="titulo">
-    <img src="" alt="" class="photo" />
-<h2>{{ hero.nome}}</h2>
-</div>
-<div class="content">Lorem ipsum dol.</div>
+        <li *ngFor="let v of vetor"> {{ v }}</li>
+    </ul>
+    <div class="heroes">
+        <ul>
+            <li *ngFor="let hero of heroes">{{hero}}</li>
+        </ul>
     </div>
-        </div>
 
-
-
-
-
-
-
-
-
-
-
+    <div class="card-hero"></div>
+    <div class="titulo">
+        <img src="" alt="" class="photo" />
+        <h2>{{ hero.nome}}</h2>
+    </div>
+    <div class="content">Lorem ipsum dol.</div>
+</div>
