@@ -1,0 +1,123 @@
+.container {
+margin: 0 auto;
+width: 80%;
+height: 100vh;
+display: grid;
+grid-template-rows: 80px 1fr;
+grid-template-columns: 300px 1fr;
+}
+
+.menu {
+    background: #fff;
+    border: 1px solid black;
+
+}
+.contente{
+    background:  #f0f0f0;
+    border: 1px solid black;
+}
+
+.contente .overview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 20px;
+}
+.contente .overview .box-dir{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.today {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background: #afafaf;
+    padding: 4px;
+}
+.month {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background: #d0d0d0;
+    color: #afafaf;
+    padding: 4px;
+}
+
+.year {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background: #afafaf;
+    padding: 4px;
+}
+
+button {
+    border: 1px solid #3e97f0;
+    width: 10px;
+    height: 35px;
+    box-shadow: 1px 1px #afafaf;
+}
+
+
+
+
+
+
+.heard1 {
+    background:  #4375F9;
+    border: 1px solid black;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+    .heard1 i{
+     font-size: 24px;   
+    }
+    .heard1 h2{
+        font-weight: 400;
+    }
+    
+.heard2{
+    background:  #fff;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.heard .box-dir {
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.heard2 i {
+    font-size: 20px;
+    color: #afafaf;
+    margin: 10px;
+}
+
+
+
+
+
+.menu ul {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.menu li {
+    padding: 10px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+
+}
